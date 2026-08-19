@@ -30,9 +30,6 @@ export function Hero() {
                 <ArrowRight />
               </Link>
             </Button>
-            <Button size="lg" variant="outline" asChild>
-              <Link to="/pricing">{t.hero.secondary}</Link>
-            </Button>
           </div>
         </div>
 
