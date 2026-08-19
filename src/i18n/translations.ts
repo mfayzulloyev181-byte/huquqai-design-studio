@@ -107,8 +107,8 @@ const uz = {
     a3: "Suhbatlaringiz shifrlangan holda saqlanadi va uchinchi shaxslarga berilmaydi. Istalgan vaqtda suhbat tarixini o'chirishingiz mumkin.",
     q4: "Rus va ingliz tillarida ishlaydimi?",
     a4: "Ha. Interfeys sukut bo'yicha o'zbek tilida ochiladi, sarlavhadagi til almashtirgich orqali rus yoki ingliz tilini tanlashingiz mumkin.",
-    q5: "To'lovni qanday amalga oshiraman?",
-    a5: "Mahalliy bank kartalari (Uzcard, Humo) va xalqaro kartalar qo'llab-quvvatlanadi. Obunani istalgan vaqtda bekor qilish mumkin.",
+    q5: "Bu xizmat bepulmi?",
+    a5: "Ha, HuquqAI'dan foydalanish to'liq bepul. Istagan vaqtda, istagan savolni bepul berishingiz mumkin.",
   },
   cta: {
     title: "Birinchi savolingizni hoziroq bering",
