@@ -22,8 +22,8 @@ const uz = {
     title: "Huquqiy savollaringizga aniq javob — bir daqiqada",
     subtitle:
       "HuquqAI — jismoniy shaxslar va kichik biznes uchun soliq, notarial va huquqiy masalalarda sun'iy intellekt yordamchisi. Har bir javob qonun moddasiga havola bilan beriladi.",
-    primary: "Bepul sinab ko'ring",
-    secondary: "Narxlarni ko'rish",
+    primary: "Savol berish",
+    secondary: "Qanday ishlaydi",
     stat1: "12 000+",
     stat1label: "Berilgan savollar",
     stat2: "40+",
