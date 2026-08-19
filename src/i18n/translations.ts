@@ -268,8 +268,8 @@ const en: Dict = {
     title: "A precise answer to your legal question — in a minute",
     subtitle:
       "HuquqAI is an AI assistant for tax, notarial and legal matters, built for individuals and small businesses. Every answer comes with a citation to the law.",
-    primary: "Try for free",
-    secondary: "See pricing",
+    primary: "Ask a question",
+    secondary: "How it works",
     stat1: "12,000+",
     stat1label: "Questions answered",
     stat2: "40+",
