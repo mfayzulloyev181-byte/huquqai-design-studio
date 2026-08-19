@@ -259,7 +259,7 @@ const en: Dict = {
     about: "About",
     chat: "Ask a question",
     login: "Sign in",
-    cta: "Try for free",
+    cta: "Ask a question",
     menu: "Menu",
     language: "Language",
   },
