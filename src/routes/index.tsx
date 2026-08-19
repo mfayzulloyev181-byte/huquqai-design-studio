@@ -1,24 +1,48 @@
 import { createFileRoute } from "@tanstack/react-router";
+import { SiteHeader } from "@/components/layout/SiteHeader";
+import { SiteFooter } from "@/components/layout/SiteFooter";
+import { Hero } from "@/components/home/Hero";
+import { HowItWorks } from "@/components/home/HowItWorks";
+import { DemoWidget } from "@/components/home/DemoWidget";
+import { Testimonials } from "@/components/home/Testimonials";
+import { PricingPreview } from "@/components/home/PricingPreview";
+import { FaqSection } from "@/components/home/FaqSection";
+import { CtaSection } from "@/components/home/CtaSection";
 
-// No head() here: the home route inherits title/description/og/twitter from
-// __root.tsx, and ships no og:image so serve-time hosting can inject the
-// project's social preview (explicit og:image or latest screenshot).
 export const Route = createFileRoute("/")({
+  head: () => ({
+    meta: [
+      { title: "HuquqAI — Huquq, soliq va notarial AI yordamchi" },
+      {
+        name: "description",
+        content:
+          "O'zbekiston qonunlariga asoslangan AI yordamchi: soliq, biznes, notarial va mehnat huquqi savollariga manba havolasi bilan javob.",
+      },
+      { property: "og:title", content: "HuquqAI — Huquqiy savollarga aniq javob" },
+      {
+        property: "og:description",
+        content:
+          "Jismoniy shaxslar va kichik biznes uchun sun'iy intellekt asosidagi huquqiy yordamchi.",
+      },
+    ],
+  }),
   component: Index,
 });
 
-// IMPORTANT: Replace this placeholder. See ./README.md for routing conventions.
 function Index() {
   return (
-    <div
-      className="flex min-h-screen items-center justify-center"
-      style={{ backgroundColor: "#fcfbf8" }}
-    >
-      <img
-        data-lovable-blank-page-placeholder="REMOVE_THIS"
-        src="https://cdn.gpteng.co/blank-app-v1.svg"
-        alt="Your app will live here!"
-      />
+    <div className="flex min-h-screen flex-col overflow-x-hidden">
+      <SiteHeader />
+      <main className="flex-1">
+        <Hero />
+        <HowItWorks />
+        <DemoWidget />
+        <Testimonials />
+        <PricingPreview />
+        <FaqSection />
+        <CtaSection />
+      </main>
+      <SiteFooter />
     </div>
   );
 }
