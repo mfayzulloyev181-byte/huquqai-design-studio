@@ -353,8 +353,8 @@ const en: Dict = {
     a3: "Conversations are stored encrypted and never shared with third parties. You can delete your history at any time.",
     q4: "Does it work in Russian and English?",
     a4: "Yes. The interface opens in Uzbek by default; you can switch language in the header.",
-    q5: "How do I pay?",
-    a5: "Local cards (Uzcard, Humo) and international cards are supported. You can cancel any time.",
+    q5: "Is this service free?",
+    a5: "Yes, HuquqAI is completely free to use. Ask any question at any time with no payment required.",
   },
   cta: {
     title: "Ask your first question now",
