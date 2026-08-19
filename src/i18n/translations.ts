@@ -13,7 +13,7 @@ const uz = {
     about: "Biz haqimizda",
     chat: "Savol berish",
     login: "Kirish",
-    cta: "Bepul sinab ko'ring",
+    cta: "Savol berish",
     menu: "Menyu",
     language: "Til",
   },
