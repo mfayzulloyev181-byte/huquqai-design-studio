@@ -12,7 +12,6 @@ export function SiteHeader() {
 
   const links = [
     { to: "/", label: t.nav.home },
-    { to: "/pricing", label: t.nav.pricing },
     { to: "/about", label: t.nav.about },
     { to: "/chat", label: t.nav.chat },
   ] as const;
