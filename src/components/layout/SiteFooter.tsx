@@ -41,11 +41,6 @@ export function SiteFooter() {
             <h3 className="text-sm font-semibold">{t.footer.product}</h3>
             <ul className="mt-4 space-y-3 text-sm text-primary-foreground/70">
               <li>
-                <Link to="/pricing" className="hover:text-primary-foreground">
-                  {t.nav.pricing}
-                </Link>
-              </li>
-              <li>
                 <Link to="/chat" className="hover:text-primary-foreground">
                   {t.nav.chat}
                 </Link>
