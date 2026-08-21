@@ -29,7 +29,7 @@ export function AppSidebar({ onNavigate }: { onNavigate?: () => void }) {
           className="h-11 w-full justify-start gap-2"
           onClick={() => {
             onNavigate?.();
-            navigate({ to: "/app", search: { new: Date.now() } });
+            navigate({ to: "/app", search: { n: Date.now() } });
           }}
         >
           <Plus className="size-4" />
